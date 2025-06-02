@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
   background-color: white;
 }
 
@@ -31,16 +31,17 @@ header {
 
 .hero {
   display: flex;
-  justify-content: space-between;
-  padding: 50px;
-  background-color: #78a7b0;
-  color: white;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: #78a7b0;
 }
 
 .hero-text {
   flex: 1;
   min-width: 300px;
+  color: white;
 }
 
 .hero-text h1 {
@@ -57,13 +58,14 @@ header {
 .input-group {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .input-group input {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  width: 200px;
+  width: 220px;
 }
 
 .donate-btn {
@@ -76,18 +78,18 @@ header {
 }
 
 .hero-image {
-  position: relative;
   flex: 1;
   min-width: 300px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 
 .hero-image img {
+  width: 250px;
   border-radius: 20px;
-  width: 100%;
-  max-width: 300px;
 }
 
 .card {
@@ -101,23 +103,30 @@ header {
 }
 
 .donation-history {
-  bottom: 30px;
-  left: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 200px;
+}
+
+.donation-history h4 {
+  margin: 0;
 }
 
 .donation-history ul {
   list-style: none;
   padding: 0;
-  margin: 10px 0 0;
+  margin-top: 10px;
 }
 
 .donation-history li {
   display: flex;
   justify-content: space-between;
+  margin: 5px 0;
 }
 
 .impact {
-  top: 20px;
-  right: 10px;
-  text-align: left;
+  top: 10px;
+  right: 0;
+  width: 150px;
+  text-align: center;
 }
