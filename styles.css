@@ -117,8 +117,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  position: relative;
-  min-width: 320px;
+  margin:auto; 16px;
+  flex: 1; max-width: 50%;
+
 }
 
 .hero-image img {
